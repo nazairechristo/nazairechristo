@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "font-1";
+    src: url(./font/NetflixSansRegular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "font-1";
+}
+.overflow{
+    height: 90vh;
+    background: rgba(19, 20, 20, 0.75);
+}
+header{
+    height: 90vh;
+    background: url(./img/bg.jpg) center/cover;   
+}
+
+header img{
+    width: 125px;
+    height: 75px;
+}
+
+.right{
+    float: right;
+    margin: 25px;
+    position: relative;
+    right: 10px;
+
+}
+
+.right select{
+    width: 80px;
+    height: 28px;
+    background: rgba(19, 20, 20, 0.55);
+    color: white;
+}
+
+.right select{
+}
+.right button#sign-in-btn{
+    height: 28px;
+    margin-left: 10px;
+    width: 78px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background: rgb(216, 4, 4);
+}
+
+.center-text{
+    margin: 125px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-text span#big-title{
+    font-size: 39px;
+    font-weight: 900;
+}
+
+.center-text span#med-title{
+    margin: 16px;
+    font-weight: 550;
+}
+.center-text span#little-title{
+    margin-bottom: 12px;
+    font-weight: 50;
+    font-size: 12px;
+
+}
+
+input{
+    height: 40px;
+}
+
+input[type="text"]{
+    width: 335px;
+    border: none;
+    border: 1px solid rgb(107, 104, 104);
+
+}
+input[type="text"]::placeholder{
+    margin-left: 20px;
+}
+
+input[type="submit"]{
+    color:  white;
+    background: rgb(216, 4, 4);
+    font-size: 15px;
+    width: 135px;
+    margin-left: -4px;
+    border: none;
+
+
+}
